@@ -1,2 +1,16 @@
-# gen_marathon_number
-!!FEED TO CHATGPT!! to cgenerates a number image for a marathon member and sends it to email. excel table as an input. the script was written for "Шаную воїнiв, бiжу за героїв України"
+## main.py
+
+### based on excel table like this
+![excel table look](excel_look.png)
+### it generates image like this
+![generated/reference image](ref.png)
+### and sends it to ceresponding email
+
+## config.py
+
+configurations for image generation like fonts, colors, points/coordinates(where to draw text); SMTP(email) server login credentials; mappings of excel columns to data types
+
+## get_config.py
+
+Was supposed to be a helper to get colors, drawing points and font sizes based of a reference image. (i don't rember... and don't know if it works properly.....)
+To run it, it needs an argument - reference image: python get_config.py ref.png

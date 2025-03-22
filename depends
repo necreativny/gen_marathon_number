@@ -1,0 +1,6 @@
+openpyxl
+Pillow
+numpy
+
+# get_config.py only:
+opencv-python
