@@ -6,7 +6,7 @@
 ![template image](10.png)
 ## it generates image like this
 ![reference image](ref.png)
-## and sends it to ceresponding email
+## and sends it to corresponding email
 
 
 # config.py
